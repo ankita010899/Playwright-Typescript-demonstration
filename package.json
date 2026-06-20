@@ -1,0 +1,17 @@
+{
+  "name": "playwright-sdet-portfolio",
+  "version": "1.0.0",
+  "description": "Production-ready SDET Portfolio Framework using Playwright & TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
